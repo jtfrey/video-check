@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B3637851D4BD83900B10584 /* video-check.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3637841D4BD83900B10584 /* video-check.m */; };
+		3B36378C1D4BD84200B10584 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B36378B1D4BD84200B10584 /* AVFoundation.framework */; };
+		3B36378F1D4BF61900B10584 /* VideoCheckDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B36378E1D4BF61900B10584 /* VideoCheckDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B36377F1D4BD83900B10584 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B3637811D4BD83900B10584 /* video-check */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "video-check"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3637841D4BD83900B10584 /* video-check.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "video-check.m"; sourceTree = "<group>"; };
+		3B36378B1D4BD84200B10584 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3B36378D1D4BF61900B10584 /* VideoCheckDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCheckDelegate.h; sourceTree = "<group>"; };
+		3B36378E1D4BF61900B10584 /* VideoCheckDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCheckDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B36377E1D4BD83900B10584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B36378C1D4BD84200B10584 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B3637781D4BD83900B10584 = {
+			isa = PBXGroup;
+			children = (
+				3B36378B1D4BD84200B10584 /* AVFoundation.framework */,
+				3B3637831D4BD83900B10584 /* video-check */,
+				3B3637821D4BD83900B10584 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B3637821D4BD83900B10584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B3637811D4BD83900B10584 /* video-check */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B3637831D4BD83900B10584 /* video-check */ = {
+			isa = PBXGroup;
+			children = (
+				3B3637841D4BD83900B10584 /* video-check.m */,
+				3B36378D1D4BF61900B10584 /* VideoCheckDelegate.h */,
+				3B36378E1D4BF61900B10584 /* VideoCheckDelegate.m */,
+			);
+			path = "video-check";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B3637801D4BD83900B10584 /* video-check */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3637881D4BD83900B10584 /* Build configuration list for PBXNativeTarget "video-check" */;
+			buildPhases = (
+				3B36377D1D4BD83900B10584 /* Sources */,
+				3B36377E1D4BD83900B10584 /* Frameworks */,
+				3B36377F1D4BD83900B10584 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "video-check";
+			productName = "video-check";
+			productReference = 3B3637811D4BD83900B10584 /* video-check */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B3637791D4BD83900B10584 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "IT-NSS University of Delaware";
+				TargetAttributes = {
+					3B3637801D4BD83900B10584 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 3B36377C1D4BD83900B10584 /* Build configuration list for PBXProject "video-check" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B3637781D4BD83900B10584;
+			productRefGroup = 3B3637821D4BD83900B10584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B3637801D4BD83900B10584 /* video-check */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B36377D1D4BD83900B10584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3637851D4BD83900B10584 /* video-check.m in Sources */,
+				3B36378F1D4BF61900B10584 /* VideoCheckDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3B3637861D4BD83900B10584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3B3637871D4BD83900B10584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3B3637891D4BD83900B10584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B36378A1D4BD83900B10584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B36377C1D4BD83900B10584 /* Build configuration list for PBXProject "video-check" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3637861D4BD83900B10584 /* Debug */,
+				3B3637871D4BD83900B10584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3637881D4BD83900B10584 /* Build configuration list for PBXNativeTarget "video-check" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3637891D4BD83900B10584 /* Debug */,
+				3B36378A1D4BD83900B10584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B3637791D4BD83900B10584 /* Project object */;
+}
